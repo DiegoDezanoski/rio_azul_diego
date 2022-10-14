@@ -1,0 +1,153 @@
+
+
+
+
+:root {
+    --body-color:#883108;
+
+ }
+ 
+ .dark-mode:root{
+    --body-background-color:#373e44;
+    --body-color:#4aebf7;
+    --link-color:#ffff;
+    --background-image:blue;
+
+    /*--background-color:rgb(136, 255, 0);*/
+    /*--conteudo-background-color:purple;*/
+
+ }
+
+ /*.conteudo .principal{
+    background-color:var( --conteudo-background-color);
+ }*/
+ 
+body{
+    background-image:hsl(355, 100%, 50%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%; 
+    color: rgb(201, 38, 38);
+    margin: 0 auto; 
+    background-color:darkseagreen;
+    /*background-image: linear-gradient(to right, #255d61, #030e0f);*/
+/*//*/
+    /*background-color: var(--body-bg);*/
+    background-color: var(--body-background-color);
+    color:var(--body-color);
+}
+
+a{  
+    color:var(--link-color);
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:darkseagreen;
+    /*border-radius: 5px; */
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #e4eaf1,#11ad79);
+}
+
+.logo img { 
+width:22%; 
+padding-top: 50px;
+border-radius: 5px; 
+}
+
+.navegacao{
+    overflow: hidden; 
+}
+
+.navegacao a{
+    float: right; 
+    padding: 0.5%;
+    color: navy(171,173,173); 
+    text-decoration: none; 
+}
+.navegacao a:hover{ 
+   color:#e32936;
+   background-color: aqua;
+}
+
+.principal{
+    display:flex; /*deixou um ao lado do outro*/
+     flex-direction: row;
+ }
+ 
+ .conteudo{
+     float: left;
+     margin: 1% 1% 1% 1%; /*define margens em relacao ao body*/
+ 
+     /*background-color: rgb(211, 174, 174);*/
+     text-align: justify;/*deixa o texto justificado*/
+     padding: 20px;/*para o texto não ficar colado no card*/
+     border-radius: 3px;
+     box-shadow: blue;
+ }
+ 
+ 
+ #tabel01{
+    float: left;
+    margin: 6% 1% 1% 1%;
+ }
+ .a01{
+    float: left;
+    margin: 1% 1% 1% 1%; /*define margens em relacao ao body*/
+
+    /*background-color: rgb(204, 18, 18);*/
+    text-align: justify;/*deixa o texto justificado*/
+    padding: 10px;/*para o texto não ficar colado no card*/
+    border-radius: 3px;
+    box-shadow:10px brown;
+ }
+
+/*.principal{
+    
+    display:flex;
+    flex-direction: row;
+    float: left;
+    margin: 15px 15px 25px 2px; 
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px 100px;
+    border-radius: 5px;
+    /*box-shadow: 10px 10px 10px rgb(114, 34, 34) ;
+}*/
+
+p{
+    text-indent: 2em;
+}
+
+/*.ftestacao{
+    position: relative;
+    top: auto;
+    display:flex;
+    flex-direction: row;
+    float: left;
+    padding: 15px 10px;
+}
+.ftestacao {
+    position: relative;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+*/
+figure{
+    margin: 300% 10% 20% 20%;
+    float:left;
+    display:inline-block;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-left:1%;
+    position:static;
+    width:min-content;
+    margin: auto;
+    text-align: left;
+}
+.rodape{
+    margin: 10;
+    color: rgb(36, 17, 17);
+    text-align: center;
+    font-size: 12px;
+}

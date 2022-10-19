@@ -12,6 +12,7 @@ body{
   
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     background-color:rgb(27, 119, 27);
     border-radius: 5px; 
     margin-top: 8px;
@@ -38,39 +39,26 @@ border-radius: 5px;
    background-color: aqua;
 }
  
+
+a:hover{
+    color:crimson;
+    background-color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
  .conteudo{
      float: left;
      margin: 1% 1% 1% 1%;
  
      background-color: rgb(8, 72, 64);
-     text-align: justify;/*deixa o texto justificado*/
-    /*para o texto não ficar colado no card*/
+     text-align: justify;
      border-radius: 3px;
-     box-shadow: blue;
-     padding: 20px;/*para o texto não ficar colado no card*/ 
+     padding: 20px;
  }
  
 p{
     text-indent: 2em;
 }
-
-/*
-.bo1{
-    float: left;
-    flex-direction: row;
-    margin: 1% 1% 1% 1%; 
-    padding: 20px;
-    margin: 30% 10% 20% 20%; 
-    display:inline-block;
-    flex-direction: row;
-    padding-top: 1%;
-    padding-left:1%;
-    position:static;
-    width:min-content;
-    margin: auto;
-    text-align: left;
-}
-*/
 
 .rodape{
     margin: 10;

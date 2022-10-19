@@ -1,0 +1,269 @@
+
+
+body{
+    background-image:hsl(188, 90%, 35%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;  
+    margin: 0 auto;  
+    background-color:#061829; 
+    background-image:blue; 
+    color:#1ea7a9;
+    font-size:medium;
+} 
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:darkseagreen; 
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #e4eaf1,#11ad79);
+
+
+    background-color:rgb(27, 119, 27);
+    border-radius: 5px; 
+}
+
+.logo img { 
+width:22%; 
+padding-top: 50px;
+border-radius: 5px; 
+}
+
+.navegacao{
+    overflow: hidden; 
+}
+
+.navegacao a{
+    float: right; 
+    padding: 0.5%;
+    color: navy(171,173,173); 
+    text-decoration: none; 
+}
+.navegacao a:hover{ 
+   color:#e32936;
+   background-color: aqua;
+}
+
+.principal{
+    display:flex; /*deixou um ao lado do outro*/
+     flex-direction: row;
+ }
+ 
+ .conteudo{
+     float: left;
+     margin: 1% 1% 1% 1%; /*define margens em relacao ao body*/
+ 
+     /*background-color: rgb(211, 174, 174);*/
+     text-align: justify;/*deixa o texto justificado*/
+     padding: 20px;/*para o texto não ficar colado no card*/
+     border-radius: 3px;
+     background-color: rgb(8, 72, 64);
+ }
+ 
+ .ftestacao{
+    float: left;
+    text-align: justify;
+    
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow:10px brown;
+ }
+
+ .ftestacao2{
+    float: right;
+    flex-direction: row;
+    margin-top: 3%;
+ }
+ 
+p{
+    text-indent: 2em;
+}
+ 
+.praca{
+    display: flex;
+    float: right;
+    flex-direction: row;
+}
+#prac{
+    display: flex;
+    float:left;
+    flex-direction:row;
+
+
+}
+ 
+
+figure{
+    margin: auto;
+}
+
+/*figure{
+    margin: 300% 10% 20% 20%;
+    float:left;
+    display:inline-block;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-left:1%;
+    position:static;
+    width:min-content;
+    margin: auto;
+}*/
+
+
+
+
+
+.rodape{
+    margin: 10;
+    color: rgb(36, 17, 17);
+    text-align: center;
+    font-size: 12px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****
+body{
+    background-image:hsl(60, 100%, 50%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%; 
+    margin: 0 auto; 
+    background-color:darkseagreen;
+   /* background-image: linear-gradient(to right, #7dedf5, #2165ca);
+   
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /*background-color:darkseagreen;
+    border-radius: 5px; 
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #e4eaf1,#11ad79);
+
+}
+.logo img { 
+
+width:22%; 
+padding-top: 50px;
+border-radius: 5px; 
+}
+.navegacao{
+    overflow: hidden; 
+}
+.navegacao a{
+    float: right; 
+    padding: 0.5%;
+    color: navy(171,173,173); 
+    text-decoration: none; 
+}
+.navegacao a:hover{ 
+   color:#e32936;
+   background-color: aqua;
+}
+.principal{
+    display:flex; /*deixou um ao lado do outro
+     flex-direction: row;
+ }
+ /*
+ .conteudo{
+   /* display:-flex; /*deixou um ao lado do outro
+    /*flex-direction: row;
+     float: left;
+     margin: 1% 1% 1% 1%; /*define margens em relacao ao body
+ 
+     background-color: gainsboro;
+     text-align: justify;/*deixa o texto justificado
+     padding: 25px;/*para o texto não ficar colado no card
+     border-radius: 3px;
+ }
+ 
+
+/*
+.principal{
+    
+    display:flex;
+    flex-direction: row;
+    float: left;
+    margin: 15px 15px 25px 2px; 
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px 100px;
+    border-radius: 5px;
+    /*box-shadow: 10px 10px 10px rgb(114, 34, 34) ;
+}*/
+
+/*
+p{
+    text-indent: 2em;
+}
+/*.ftestacao{
+    position: relative;
+    top: auto;
+    display:flex;
+    flex-direction: row;
+    float: left;
+    padding: 15px 10px;
+}
+
+.ftestacao {
+    position: relative;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+*/
+/*
+figure{
+    float:left;
+     
+    display:flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-top: 0% ;
+    position:static;
+    width:min-content;
+    margin: auto;
+    text-align: left;
+}
+
+.rodape{
+    color: rgb(36, 17, 17);
+    text-align: center;
+    font-size: 12px;
+}
+@media screen and (max-width:100px){
+    .principal,.conteudo{
+        width:100%;
+       /* flex-direction: column;*
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+}*/

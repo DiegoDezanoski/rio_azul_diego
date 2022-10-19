@@ -1,0 +1,87 @@
+
+body{
+    background-image:hsl(188, 90%, 35%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;  
+    margin: 0 auto;  
+    background-color:#061829; 
+    background-image:blue; 
+    color:#1ea7a9;
+    font-size:medium;
+} 
+  
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(27, 119, 27);
+    border-radius: 5px; 
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #e4eaf1,#11ad79);
+}
+
+.logo img { 
+width:22%; 
+padding-top: 50px;
+border-radius: 5px; 
+}
+
+.navegacao{
+    overflow: hidden; 
+}
+.navegacao a{
+    float: right; 
+    padding: 0.5%;
+    color: navy(171,173,173); 
+    text-decoration: none; 
+}
+.navegacao a:hover{ 
+   color:purple;
+   background-color: aqua;
+}
+ 
+ .conteudo{
+     float: left;
+     margin: 1% 1% 1% 1%;
+ 
+     background-color: rgb(8, 72, 64);
+     text-align: justify;/*deixa o texto justificado*/
+    /*para o texto não ficar colado no card*/
+     border-radius: 3px;
+     box-shadow: blue;
+     padding: 20px;/*para o texto não ficar colado no card*/ 
+ }
+ 
+p{
+    text-indent: 2em;
+}
+
+/*
+.bo1{
+    float: left;
+    flex-direction: row;
+    margin: 1% 1% 1% 1%; 
+    padding: 20px;
+    margin: 30% 10% 20% 20%; 
+    display:inline-block;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-left:1%;
+    position:static;
+    width:min-content;
+    margin: auto;
+    text-align: left;
+}
+*/
+
+.rodape{
+    margin: 10;
+    color:#1ea7a9;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width:800px){
+    .principal,.conteudo.central, .conteudo.lateral{
+        width:100%;
+      
+        padding: 0px;
+    }}

@@ -44,17 +44,15 @@ border-radius: 5px;
 }
 
 .principal{
-    display:flex; /*deixou um ao lado do outro*/
+    display:flex;
      flex-direction: row;
  }
  
  .conteudo{
      float: left;
-     margin: 1% 1% 1% 1%; /*define margens em relacao ao body*/
- 
-     /*background-color: rgb(211, 174, 174);*/
-     text-align: justify;/*deixa o texto justificado*/
-     padding: 20px;/*para o texto não ficar colado no card*/
+     margin: 1% 1% 1% 1%;
+     text-align: justify;
+     padding: 20px;
      border-radius: 3px;
      background-color: rgb(8, 72, 64);
  }
@@ -96,25 +94,9 @@ figure{
     margin: auto;
 }
 
-/*figure{
-    margin: 300% 10% 20% 20%;
-    float:left;
-    display:inline-block;
-    flex-direction: row;
-    padding-top: 1%;
-    padding-left:1%;
-    position:static;
-    width:min-content;
-    margin: auto;
-}*/
-
-
-
-
-
 .rodape{
     margin: 10;
-    color: rgb(36, 17, 17);
+    color:#1ea7a9;
     text-align: center;
     font-size: 12px; 
 }

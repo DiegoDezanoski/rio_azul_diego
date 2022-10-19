@@ -99,6 +99,8 @@ figure{
 }
 .text{
     float: left;
+    flex-direction: row;
+    inline-size: initial;
     margin: 1% 1% 1% 1%;
 
     background-color: rgb(8, 72, 64);
